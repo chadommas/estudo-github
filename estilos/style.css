@@ -1,17 +1,43 @@
 * { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
     font-size: 16px;
 
 }
 
 body {
-    background-color: rgb(250, 130, 154);
+    background-color: rgb(122, 185, 236);
 }
 
 main {
-    background-color: rgb(235, 146, 114);
-    width: 500px;
+    background-color: white;
+    width: 565px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(122, 185, 236)
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(122, 185, 236)
+}
+
+img.lado {
+    float: right;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.back {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
